@@ -4,11 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jelajah Wisata Indonesia</title>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    table {
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media (max-width: 600px) {
+        .wisata-table {
+            width: 100% !important;
+        }
+
+        .wisata-table td {
+            display: block;
+            width: 100% !important;
+            padding: 10px;
+        }
+
+        .wisata-table img {
+            width: 100%;
+            max-width: 280px;
+            height: auto;
+        }
+
+        .menu {
+            padding: 8px 10px !important;
+        }
+    }
+</style>
 </head>
 
 <body>
 
-    <table border="0" width="100%" cellpadding="10">
+    <table class="wisata-table" width="100%" border="0" width="100%" cellspacing="5" cellpadding="10">
         <tr bgcolor="aqua">
             <td colspan="3" align="center">
                 <h1>Jelajah Wisata Indonesia</h1>
@@ -45,21 +92,21 @@
      <table width="100%" border="0" cellspacing="5" cellpadding="10">
         <tr>
             <td align="center" width="33%" valign="top">
-                <img src="kawah-ijen.jpg" alt="Kawah Ijen" width="250" height="170">
+                <img src="kawah-ijen.jpg" alt="Kawah Ijen" width="250" height="170" style="max-width: 100%; height: auto">
                 <p align="center">Kawah Ijen</p>
                 <p align="center">Kawah Ijen merupakan salah satu tempat wisata terkenal yang berada di jawa timur
                     <br>
                 </p>
             </td>
             <td align="center" width="33%" valign="top">
-                <img src="bromo-1.jpg" alt="Gunung Bromo" width="250" height="170">
+                <img src="bromo-1.jpg" alt="Gunung Bromo" width="250" height="170" style="max-width: 100%; height: auto">
                 <p align="center">Gunung Bromo</p>
                 <p align="center">Gunung Bromo merupakan salah satu tempat wisata terkenal yang berada di jawa timur
                     <br>
                 </p>
             </td>
             <td align="center" width="33%" valign="top">
-                <img src="ranu-kumbolo.jpg" alt="Ranu Kumbolo" width="250" height="170">
+                <img src="ranu-kumbolo.jpg" alt="Ranu Kumbolo" width="250" height="170" style="max-width: 100%; height: auto">
                 <p align="center">Ranu Kumbolo</p>
                 <p align="center">Ranu Kumbolo merupakan salah satu tempat wisata terindah yang berada di Jawa Timur
                     <br>
